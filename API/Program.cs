@@ -29,7 +29,6 @@ namespace API
                     logger.LogError(e, "An error ocurred during the migration");
                 }
             }
-
             host.Run();
         }
 
